@@ -1,3 +1,18 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    padding-bottom: 50px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 .jumbotron{
 	margin-top: 10px;
 }
@@ -6,9 +21,22 @@
 	margin-top: 10px;
 }
 
+#myCarousel{
+    margin-top: 10px;
+}
+
 #footer {
 	position:relative;
 	margin-bottom: -35px;
+}
+
+.slider_text{
+    padding-top:70px;
+}
+
+.slider_text p{
+    text-align: justify;
+    font-size: 1.5rem;
 }
 
 .thumbnail img{
@@ -25,6 +53,12 @@
 	padding: 0px;
 }
 
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
 #myImg {
     border-radius: 5px;
     cursor: pointer;
@@ -32,6 +66,10 @@
 }
 
 #myImg:hover {opacity: 0.7;}
+
+.row{
+    padding-top: 10px;
+}
 
 /* The Modal (background) */
 .modal {
