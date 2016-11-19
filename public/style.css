@@ -5,6 +5,7 @@ html{
 
 body{
     padding-bottom: 50px;
+    background: #f2f2f2;
 }
 
 .footer{
@@ -23,6 +24,11 @@ body{
 
 #myCarousel{
     margin-top: 10px;
+}
+
+#myCarousel:hover{
+    margin-top: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3)
 }
 
 #footer {
@@ -148,3 +154,43 @@ body{
         width: 100%;
     }
 }
+
+.contentListNone{
+    display : none;
+}
+
+.contentListBlock{
+    display : block;
+}
+
+.glyphicon{
+    float : right;
+}
+
+#mainContainer .panel-primary {
+    margin-top: 20px;
+}
+
+.panel-body{
+    background: #eee;
+}
+
+.slider_text h2{
+    animation-delay : 0.4s;
+}
+.slider_text p{
+    animation-delay :0.6s;
+}
+#mainDiv{
+    margin-top : 50px;
+}
+.leftMargin{
+    margin-left: 2x;
+}
+.navbar-default{
+    background: #337ab7;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
+    color: #ffffff;
+}
+
