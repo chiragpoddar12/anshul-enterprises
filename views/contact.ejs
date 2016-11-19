@@ -6,5 +6,61 @@
 		  <li role="presentation"><a href="products">Products</a></li>
 		  <li role="presentation" class="active"><a href="contact">Contact</a></li>
 		</ul>
+		<div id = "mainDiv" class = "animated zoomIn">
+			<div class="row">
+				<div class="col-md-6 embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.0716329971274!2d72.866861650561!3d19.27925085049798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b05b5cd271b3%3A0xe1cb48690578f3cf!2sGokul+village%2C+Mira+Road+East%2C+Mira+Bhayandar%2C+Maharashtra+401107!5e0!3m2!1sen!2sin!4v1479321597465" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-6">
+					<div class="well well-lg">
+						<form method="POST" action="/query">
+							<div class="input-group" id="inputGroup">
+							  <span class="input-group-addon" id="basic-addon1">First Name</span>
+							  <input type="text" class="form-control" placeholder="First Name" aria-describedby="basic-addon1">
+							  <span class="input-group-addon" id="basic-addon1">Last Name</span>
+							  <input type="text" class="form-control" placeholder="Last Name" aria-describedby="basic-addon1">
+							</div>
+							<div class="input-group" id="inputGroup">
+							  <span class="input-group-addon" id="basic-addon1">Email</span>
+							  <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+							</div>
+							<div class="input-group" id="inputGroup">
+							  <span class="input-group-addon" id="basic-addon1">Subject</span>
+							  <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+							</div>
+							<div id="inputGroup">
+								<textarea placeholder="Message" class="form-control" rows="6"></textarea>
+							</div>
+							<div class="text-center">
+								<button type="submit" class="btn btn-primary btn-lg btn-block" role="button" id="submitButton">Submit</button>	
+							</div>
+						</form>
+					</div>
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h3 class="panel-title">Anshul Pacheriwala</h3>
+					  </div>
+					  <div class="panel-body">
+					  	<div class="row">
+					  		<div class="col-md-6 col-md-6">
+					  			<img src="/images/anshulDP.jpg" class="img-responsive img-circle">
+					  		</div>
+					  		<div class="col-md-6" id="contactInfo">
+					  			<p>
+						  			C/601,Gokul Village,<br>
+								    Near Shanti Park,<br>
+								    Mira Road(E),<br>
+								    Thane-401101<br>
+								    +91 9821450487 / +91 9819269467 
+								</p>
+					  			
+					  		</div>
+					  		
+					  	</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 <% include partials/footer %> 

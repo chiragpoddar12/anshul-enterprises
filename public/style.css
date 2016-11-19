@@ -193,4 +193,15 @@ body{
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
     color: #ffffff;
 }
-
+#inputGroup{
+    margin-top: 2rem;
+    margin-bottom:  2rem;   
+}
+#submitButtom{
+    width: 100%
+}
+.row{
+display: flex;
+ display: block;
+ overflow: hidden;    
+}
